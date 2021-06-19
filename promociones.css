@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgba(221, 189, 148, 0.61);
@@ -40,7 +45,7 @@ body {
   width: 0%;
   content: "";
   height: 3px;
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 .navbar .navbar-nav .barra-link:hover:after {
   width: 100%;
@@ -124,8 +129,8 @@ body {
 
 /* HOVER EFFECTS */
 .poster-img {
-  min-width: 400px;
-  min-height: 300px;
+  min-width: 360px;
+  min-height: 280px;
   filter: brightness(60%);
   transition: 0.5s ease;
   backface-visibility: hidden;
@@ -236,4 +241,65 @@ body {
   opacity: 1;
   filter: brightness(150%);
   transition: all 1s ease-in-out;
+}
+
+/* FOOTER */
+
+/* footer-social */
+.footer-social {
+  text-align: center;
+  font-size: 35px;
+  background: rgb(34,34,80);
+  background: linear-gradient(180deg, #323255 87%, rgba(228,187,133,1) 100%);
+}
+.footer-social a:hover {
+  filter: brightness(80%);
+}
+/* foooter-legal */
+.footer-legal {
+  background: rgb(34,34,80);
+  background: linear-gradient(180deg, rgba(34,34,80,1) 16%, rgba(0,0,0,1) 100%);
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.footer-legal a {
+  text-decoration: none;
+}
+.coockies-a {
+  color: rgb(228, 187, 133);
+}
+.coockies-a:hover {
+  color: #ffffff;
+}
+/* footer-all */
+.footer-all{
+  background: rgb(228,187,133);
+  background: linear-gradient(180deg, rgba(228,187,133,1) 10%, rgba(255,255,255,0) 48%, rgba(228,187,133,1) 90%);
+}
+/* DIV-1 */
+
+.input-foot {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid  2px #222250;
+}
+.button-foot {
+  background-color: transparent;
+  border: solid 2px #222250;
+  transition: 0.4s;
+}
+.button-foot:hover {
+  color: antiquewhite;
+  background-color: #222250;
+}
+
+/* DIV-2  */
+
+/* DIV-3 */
+.icon-foot {
+  text-align: center;
+  font-size: 30px;
+  color: #222250;
+ padding: 0 2rem;
 }
