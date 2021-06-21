@@ -10,7 +10,8 @@ body {
 
 /* NAVBAR */
 .logo {
-  width: 70%;
+  width: 150px;
+  margin-left: 2rem;
 }
 
 .barra-nav {
@@ -110,6 +111,7 @@ body {
 .sub-header {
   background-image: url(./IMGProyecto/Navbar&Header/header-fiji.jpg);
   padding: 9rem;
+ 
   text-align: center;
   box-shadow: 5px 10px 18px rgb(75, 180, 250);
 }
@@ -148,7 +150,6 @@ body {
 }
 .poster:hover .poster-h2 {
   opacity: 1;
-  filter: brightness(150%);
 }
 /* CARRUSEL DE IMAGENES */
 .carrusel {
@@ -164,23 +165,29 @@ body {
 }
 
 /*  CARRUSEL  ESTILO */
-.letra-carrusel {
-  color: aliceblue;
-  font-family: "Bebas Neue", cursive;
-  text-shadow: 0 0 20px rgb(0 0 0 / 80%);
-}
-.img-carrusel {
+.img-carrusel img{
   transition: 0.5s ease-in-out;
+}
+.img-carrusel div div{
+  opacity: 0.8;
+  font-size: 25px;
+  text-shadow: 0 0 20px rgb(0 0 0 / 80%);
+  transition: 0.5s ease-in-out;
+}
+.img-carrusel:hover img {
+  filter: brightness(50%);
+}
+.img-carrusel:hover div div {
+ opacity: 1;
+}
 
-}
-.img-carrusel:hover {
-  filter: brightness(60%)
-}
 /* IMAGEN LATERAL */
 .lateral {
   margin: 8px 0px;
   border-radius: 5px;
   overflow: hidden;
+  
+ 
 }
 .lateral figure {
   display: flex;
@@ -243,6 +250,24 @@ body {
   transition: all 1s ease-in-out;
 }
 
+@media screen and (max-width: 992px) {
+  .div-lateral1 {
+ height: 70%;
+
+  }
+}
+@media screen and (max-width: 992px) {
+  .div-lateral2 {
+ height: 70%;
+  }
+}
+@media screen and (max-width:992px) {
+  .lateral {
+    
+   align-items: center;
+  }
+}
+
 /* FOOTER */
 
 /* footer-social */
@@ -277,16 +302,26 @@ body {
   background: rgb(228,187,133);
   background: linear-gradient(180deg, rgba(228,187,133,1) 10%, rgba(255,255,255,0) 48%, rgba(228,187,133,1) 90%);
 }
-/* DIV-1 */
-
+/* FORM-FOOT */
 .input-foot {
   background-color: transparent;
   border: none;
   border-bottom: solid  2px #222250;
 }
+
+.input-foot:hover{
+  transform: scale(105%);
+}
+.input-foot:active {
+ outline: none;
+}
+.input-foot:focus{
+  outline: none;
+}
 .button-foot {
   background-color: transparent;
   border: solid 2px #222250;
+  border-radius: 1rem;
   transition: 0.4s;
 }
 .button-foot:hover {
@@ -294,12 +329,12 @@ body {
   background-color: #222250;
 }
 
-/* DIV-2  */
 
-/* DIV-3 */
+
+/*CONTACTO-FOOT*/
 .icon-foot {
-  text-align: center;
+  text-align: end;
   font-size: 30px;
   color: #222250;
- padding: 0 2rem;
+  padding: 0 2rem;
 }
