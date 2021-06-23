@@ -143,6 +143,78 @@ body {
   color:#323255;
   }
   
+/* seccion lugares proximos */
+ /* ESTILO */
+ .lugares{
+  max-width: 1100px;
+}
+ .poster-h2 {
+   position: relative;
+   left: 20%;
+  bottom: 80%;
+ }
+ .poster-h2 h2{
+   color: aliceblue;
+   font-family: "Bebas Neue", cursive;
+   size: 15px;
+   text-shadow: 0 0 20px rgb(0 0 0 / 80%);
+ }
+ .poster-h2 p{
+   color: aliceblue;
+   size: 15px;
+   text-shadow: 0 0 20px rgb(0 0 0 / 80%);
+ }
+/* configuracion de la fila de 3 */
+ .poster-h3 {
+   position: relative;
+   left: 30%;
+  bottom: 70%;
+ }
+ .poster-h3 h2{
+   color: aliceblue;
+   font-family: "Bebas Neue", cursive;
+   size: 15px;
+   text-shadow: 0 0 20px rgb(0 0 0 / 80%);
+ }
+ .poster-h3 p{
+   color: aliceblue;
+   size: 15px;
+   text-shadow: 0 0 20px rgb(0 0 0 / 80%);
+ }
+
+ /* HOVER EFFECTS */
+ .poster-img {
+   min-width:240px;
+   filter: brightness(60%);
+   transition: 0.5s ease;
+   backface-visibility: hidden;
+ }
+ .poster-h2 {
+   transition: 0.5s ease;
+   opacity: 0.8;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ .poster:hover .poster-img {
+   filter: brightness(50%);
+ }
+ .poster:hover .poster-h2 {
+   opacity: 1;
+   filter: brightness(150%);
+ }
+ .poster-h3 {
+   transition: 0.5s ease;
+   opacity: 0.8;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ .poster:hover .poster-h3 {
+   opacity: 1;
+   filter: brightness(150%);
+ }
+
 /* FOOTER */
 
 /* footer-social */
