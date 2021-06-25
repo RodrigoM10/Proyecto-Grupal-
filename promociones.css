@@ -5,7 +5,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(221, 189, 148, 0.61);
+  background-color: rgba(245, 245, 245, 0.836);
 }
 
 /* NAVBAR */
@@ -15,7 +15,7 @@ body {
 }
 
 .barra-nav {
-  background-color: #323255;
+  background-color: #222250;
 }
 .navbar .navbar-nav .barra-link:hover {
   color: aliceblue;
@@ -111,9 +111,7 @@ body {
 .sub-header {
   background-image: url(./IMGProyecto/Navbar&Header/header-fiji.jpg);
   padding: 9rem;
- 
   text-align: center;
-  box-shadow: 5px 10px 18px rgb(75, 180, 250);
 }
 /* CARDS-OFERTAS */
 /* ESTILO */
@@ -167,11 +165,12 @@ body {
 /*  CARRUSEL  ESTILO */
 .img-carrusel img{
   transition: 0.5s ease-in-out;
+  filter: brightness(80%);
 }
 .img-carrusel div div{
   opacity: 0.8;
   font-size: 25px;
-  text-shadow: 0 0 20px rgb(0 0 0 / 80%);
+  text-shadow: 0 0 20px rgb(0 0 0 / 100%);
   transition: 0.5s ease-in-out;
 }
 .img-carrusel:hover img {
@@ -185,9 +184,7 @@ body {
 .lateral {
   margin: 8px 0px;
   border-radius: 5px;
-  overflow: hidden;
-  
- 
+  overflow: hidden; 
 }
 .lateral figure {
   display: flex;
@@ -269,16 +266,39 @@ body {
 }
 
 /* FOOTER */
-
-/* footer-social */
-.footer-social {
-  text-align: center;
-  font-size: 35px;
+/* explainer-footer */
+.explainer-footer {
   background: rgb(34,34,80);
-  background: linear-gradient(180deg, #323255 87%, rgba(228,187,133,1) 100%);
+  background: linear-gradient(180deg, rgba(34,34,80,1) 4%, rgba(255,255,255,1) 4%, rgba(255,255,255,1) 96%);
 }
-.footer-social a:hover {
-  filter: brightness(80%);
+
+.explainer-footer img {
+  
+  height: 70px;
+  vertical-align: middle;
+  border: 0em;
+
+}
+.explainer-footer h2 {
+  margin: 0em;
+  font-weight: 600;
+  padding: 5px 0;
+  color: #222250;
+  font-size: 15px;
+}
+.explainer-footer p {
+  color: rgb(56, 46, 32);
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+.icons-foot a i{
+  font-size: 35px;
+  margin: 5px 6px;
+  padding: 5px;
+  color: #222250;
+  
 }
 /* foooter-legal */
 .footer-legal {
@@ -299,8 +319,8 @@ body {
 }
 /* footer-all */
 .footer-all{
-  background: rgb(228,187,133);
-  background: linear-gradient(180deg, rgba(228,187,133,1) 10%, rgba(255,255,255,0) 48%, rgba(228,187,133,1) 90%);
+  background-color: #ffffff;
+
 }
 /* FORM-FOOT */
 .input-foot {
