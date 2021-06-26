@@ -138,16 +138,13 @@ body {
 }
 .poster-h2 {
   transition: 0.5s ease;
-  opacity: 0.8;
+
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 .poster:hover .poster-img {
   filter: brightness(30%);
-}
-.poster:hover .poster-h2 {
-  opacity: 1;
 }
 /* CARRUSEL DE IMAGENES */
 .carrusel {
@@ -358,3 +355,4 @@ body {
   color: #222250;
   padding: 0 2rem;
 }
+
