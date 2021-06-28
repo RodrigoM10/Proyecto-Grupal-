@@ -95,11 +95,6 @@ body {
   color: aliceblue;
 }
 
-/* seccion dropdown login */
-.login-text {
-  color: #323255;
-}
-
 /* HEADER */
 .sub-header h1 {
   color: aliceblue;
@@ -275,3 +270,51 @@ body {
   color: #222250;
   padding: 0 2rem;
 }
+
+
+/* MODAL REGISTRO */
+
+.fondo-1{
+
+  background-image: url(./imagenes/fondomodal.jpg);
+  background-size: cover;
+    }
+  .slide-right{
+    width: 500px;
+    height: 300px;
+  }
+  
+    .slide-right {
+      -webkit-animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+  
+    @keyframes slide-right {
+      0% {
+        -webkit-transform: translateX(-500px);
+                transform: translateX(-500px);
+      }
+      100% {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+      }
+    }
+    .btn-form{
+      padding: 0;
+      font-size: 15px;
+    }
+  
+    .form-opacidad{
+  padding-left: 100px;
+  
+  animation: opacidad 5s;
+    }
+  
+    @keyframes opacidad {
+      0%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+    }

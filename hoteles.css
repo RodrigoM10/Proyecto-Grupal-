@@ -94,10 +94,7 @@ body {
   color: aliceblue;
 }
 
-/* seccion dropdown login */
-.login-text {
-  color: #222250;
-}
+
 
 /* HEADER */
 .sub-header h1 {
@@ -140,6 +137,9 @@ min-height: 212px;
 .hoteles h3{
 font-size: 20px;
 color:#222250;
+}
+.hoteles:hover {
+  cursor: pointer;
 }
 
 /* seccion lugares proximos */
@@ -216,6 +216,64 @@ color:#222250;
     opacity: 1;
     filter: brightness(150%);
   }
+
+
+/* MODAL REGISTRO */
+
+.fondo-1{
+
+  background-image: url(./imagenes/fondomodal.jpg);
+  background-size: cover;
+    }
+  .slide-right{
+    width: 500px;
+    height: 300px;
+  }
+  
+    .slide-right {
+      -webkit-animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+  
+    @keyframes slide-right {
+      0% {
+        -webkit-transform: translateX(-500px);
+                transform: translateX(-500px);
+      }
+      100% {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+      }
+    }
+    .btn-form{
+      padding: 0;
+      font-size: 15px;
+    }
+  
+    .form-opacidad{
+  padding-left: 100px;
+  
+  animation: opacidad 5s;
+    }
+  
+    @keyframes opacidad {
+      0%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+    }
+  
+
+
+
+
+
+
+
+
+
 
   /* FOOTER */
 /* explainer-footer */

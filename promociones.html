@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- link css  -->
     <link rel="stylesheet" href="./promociones.css">
@@ -62,7 +63,8 @@
                     </li>
                 </ul>
                 <div>
-                    <button class="btn btn-secondary" type="button" style="color: rgb(228, 173, 101);">
+                    <button class="btn btn-secondary" type="button" style="color: rgb(228, 173, 101);"
+                        data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
                         <i class="fas fa-user"></i> Log In
                     </button>
                 </div>
@@ -71,11 +73,10 @@
     </section>
     <!-- SECCION HEADER -->
     <header>
-        <div class=" container-fluid sub-header mb-3">
+        <div class="container-fluid sub-header mb-3">
             <h1 class="mb-0 titulo-general">Las mejores ofertas de vuelos encontradas por viajeros como tu</h1>
         </div>
     </header>
-
     <!-- SECCION CARDS IMAGENES -->
     <main>
         <section class="container">
@@ -126,7 +127,7 @@
                                 <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2"
                                     aria-label="Slide 3"></button>
                             </div>
-                            <div class="carousel-inner img-carrusel img-carrusel">
+                            <div class="carousel-inner img-carrusel">
                                 <div class="carousel-item active ">
                                     <img src="./IMGProyecto/Promociones/carrusel/brasil1.jpg" class="d-block w-100"
                                         alt="...">
@@ -403,6 +404,100 @@
 
         </section>
 
+
+        <!-- Modal de LOGIN -->
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel"><b>Bienvenido! Comienza a Viajar</b></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-grid gap-3 col-10 mx-auto">
+                            <button class="btn btn-primary" type="button"><a class="m-1 text-white"
+                                    href="https://es-es.facebook.com/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a>Ingresa con
+                                Facebook</button>
+                            <button class="btn btn-danger" type="button"><a class="m-1 text-white"
+                                    href="https://accounts.google.com/" target="_blank"><i
+                                        class="fab fa-google"></i></a>Ingresa con Google</button>
+                            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                data-bs-dismiss="modal">Registrate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog  modal-fullscreen d-flex justify-content-center ">
+
+                <div class="modal-content modal-b fondo-1 ">
+
+
+                    <div class="modal-body flex-wrap w-100 d-flex justify-content-center align-items-center">
+
+                        <img class="modal2 d-flex slide-right" src="./imagenes/a65aa23b39a51b0ecac944068a03dc9f.png"
+                            alt="">
+                        <!-- FORM -->
+                        <div>
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel2"><b>!No falta nada! Completa tus
+                                        datos</b></h5>
+                            </div>
+                            <form>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput"
+                                            placeholder="" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">Correo Electrónico</label>
+                                        <input type="email" class="form-control" id="formGroupExampleInput"
+                                            placeholder="" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">Elige tu
+                                            contraseña</label>
+                                        <input type="password" class="form-control" id="formGroupExampleInput"
+                                            placeholder="" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">Confirma tu
+                                            contraseña</label>
+                                        <input type="password" class="form-control" id="formGroupExampleInput"
+                                            placeholder="" required>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Quiero recibir ofertas y promociones a mi correo
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="button-foot">A
+                                        VIAJAR!</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </main>
 
 
@@ -513,7 +608,9 @@
                     <input class="m-2 input-foot" type="text" placeholder="Nombre" aria-label="Nombre" name="name">
                     <input class="m-2 input-foot " type="text " placeholder="Correo elecrtónico"
                         aria-label="Correo electrónico" name="email">
-                    <button class="m-3 button-foot"> A VIAJAR!</button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Al hacer Click recibiras noticias semanales. Genial!" class="m-3 button-foot">A
+                        VIAJAR!</button>
                 </form>
             </div>
             <div class="d-flex justify-content-center align-items-center ">
