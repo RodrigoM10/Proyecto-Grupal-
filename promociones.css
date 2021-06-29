@@ -95,7 +95,6 @@ body {
   color: aliceblue;
 }
 
-
 /* HEADER */
 .sub-header h1 {
   color: aliceblue;
@@ -105,11 +104,9 @@ body {
 }
 .sub-header {
   background-image: url(./IMGProyecto/Navbar&Header/header-fiji.jpg);
-  padding:9rem 12px;
+  padding: 9rem 12px;
   text-align: center;
-
 }
-
 
 /* CARDS-OFERTAS */
 /* ESTILO */
@@ -127,7 +124,6 @@ body {
 
 /* HOVER EFFECTS */
 .poster-img {
-  min-width: 360px;
   min-height: 280px;
   filter: brightness(60%);
   transition: 0.5s ease;
@@ -143,9 +139,8 @@ body {
 }
 .poster:hover .poster-img {
   filter: brightness(30%);
-
 }
-.poster:hover{
+.poster:hover {
   cursor: pointer;
 }
 /* CARRUSEL DE IMAGENES */
@@ -180,6 +175,23 @@ body {
   opacity: 1;
   cursor: pointer;
 }
+
+/* Carrusel Text */
+@media screen and (max-width: 480px) {
+  .img-carrusel div div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
 
 /* IMAGEN LATERAL */
 .lateral {

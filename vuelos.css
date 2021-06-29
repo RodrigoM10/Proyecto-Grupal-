@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
+ 
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgba(245, 245, 245, 0.836);
+ 
 }
 
 /* NAVBAR */
@@ -15,6 +17,7 @@ body {
 
 .barra-nav {
   background-color: #222250;
+ 
 }
 .navbar .navbar-nav .barra-link:hover {
   color: aliceblue;
@@ -113,28 +116,6 @@ body {
   background-color: #222250;
   padding: 5rem;
   text-align: center;
-}
-
-/* Elegir lugar desde */
-.input-lugar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  width: 32%;
-}
-
-.select-lugar {
-  font-size: 16px;
-  background-color: #dae1f0;
-  border: none;
-  border-bottom: 1px solid #222250;
-}
-.select-lugar:active {
-  outline: none;
-}
-.select-lugar:focus {
-  outline: none;
 }
 
 
