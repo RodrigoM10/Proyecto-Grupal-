@@ -318,6 +318,165 @@
             </div>
         </section>
 
+        <!-- Seccion Ofertas Imperdibles -->
+        <section class="container d-flex flex-column justify-content-center align-items-center"
+        style="overflow: hidden;">
+
+        <div class="d-flex justify-content-center mt-3">
+            <div class="contador d-flex justify-content-center" onLoad="mostrar_hora()">
+                <div id="fecha">
+                    <h2 class="tiempo-limitado">CONOCE LAS MEJORES OFERTAS</h2>
+                    <i class="fas fa-fire-alt fuego"></i> <span id="hora"></span> horas, <span id="minuto"></span>
+                    minutos, <span id="segundo"></span> segundos <i class="fas fa-fire-alt fuego"></i>
+                </div>
+            </div>
+        </div>
+        <nav class="mt-5  mx-auto">
+            <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Aventura</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Historia</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Cultura</button>
+            </div>
+        </nav>
+
+        <div class="tab-content mb-3" id="nav-tabContent">
+
+            <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <img class="w-100 imagen-tabla" src="./imagenes/paquetes/patagonia.jpg" alt="">
+                            </th>
+                            <td>
+                                <div class="paquete">
+                                    <h4>10 noches</h4>
+                                    <p>Patagonia Argentina</p>
+                                    <a href=" "><i class="fas fa-map-marker-alt"></i> - Bariloche</a><br>
+                                    <a href=""><i class="fas fa-concierge-bell"></i> - Hotel Huapi</a>
+                                    <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i><br>
+                                    <a href="">Precio por persona <h4>$200 - Dolares</h4></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img class="w-100 imagen-tabla" src="./imagenes/paquetes/mexico.jpg" alt="">
+                            </th>
+                            <td>
+                                <div class="paquete">
+                                    <h4>10 noches</h4>
+                                    <p>Mexico</p>
+                                    <a href=" "><i class="fas fa-map-marker-alt"></i> Cancun</a><br>
+                                    <a href=""><i class="fas fa-concierge-bell"></i> - Hotel Grand Oasis
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                    </a><br>
+                                    <a href="">Precio por persona <h4>$350 - Dolares</h4></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <img class="w-100 imagen-tabla" src="./imagenes/paquetes/greciaaa.jpg" alt="">
+                            </th>
+                            <td>
+                                <div class="paquete">
+                                    <h4>9 noches</h4>
+                                    <h6>GRECIA</h6>
+                                    <a href=" "><i class="fas fa-map-marker-alt"></i> - Atenas</a><br>
+                                    <a href=""><i class="fas fa-concierge-bell"></i> - Hotel Aquiles</a>
+                                    <i class="fas fa-star estrellas3"></i>
+                                    <i class="fas fa-star estrellas3"></i>
+                                    <i class="fas fa-star estrellas3"></i>
+                                    <i class="fas fa-star estrellas3"></i><br>
+                                    <a href="">Precio por persona <h4>$320 - Dolares</h4></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img class="w-100 imagen-tabla" src="./imagenes/paquetes/tailandiaaaa.jpg" alt="">
+                            </th>
+                            <td>
+                                <div class="paquete">
+                                    <h4>10 noches</h4>
+                                    <h6>TAILANDIA</h6>
+                                    <a href=" "><i class="fas fa-map-marker-alt"></i> Fiji</a><br>
+                                    <a href=""><i class="fas fa-concierge-bell"></i> - Hotel la Playa</a>
+                                    <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i><br>
+                                    <a href="">Precio por persona <h4>$250 - Dolares</h4></a>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <img class="w-100 imagen-tabla" src="./imagenes/paquetes/japon.jpg" alt="">
+                            </th>
+                            <td>
+                                <div class="paquete">
+                                    <h4>9 noches</h4>
+                                    <h6> Japon</h6>
+                                    <a href=" "><i class="fas fa-map-marker-alt"></i> - Tokio</a><br>
+                                    <a href=""><i class="fas fa-concierge-bell"></i> - Hotel Kimetsu
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                    </a><br>
+                                    <a href="">Precio por persona <h4>$420 - Dolares</h4></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <img class="w-100 imagen-tabla" src="./imagenes/paquetes/Austria.jpg" alt="">
+                            </th>
+                            <td>
+                                <div class="paquete">
+                                    <h4>10 noches</h4>
+                                    <h6>Austria</h6>
+                                    <a href=" "><i class="fas fa-map-marker-alt"></i> Viena</a><br>
+                                    <a href=""><i class="fas fa-concierge-bell"></i>
+                                        Hotel El nordico
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                        <i class="fas fa-star estrellas3"></i>
+                                    </a><br>
+                                    <a href="">Precio por persona <h4>$350 - Dolares</h4></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
 
         <!-- Modal de LOGIN -->
         <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
@@ -410,8 +569,6 @@
                 </div>
             </div>
         </div>
-
-
     </main>
 
     <!-- FOOTER -->
@@ -601,7 +758,7 @@
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="index.js"></script>
+    <script src="index1.js"></script>
 
 </body>
 

@@ -215,12 +215,6 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
-
-
 /* FOOTER */
 /* explainer-footer */
 .explainer-footer {
@@ -343,76 +337,3 @@ body {
     opacity: 1;
   }
 }
-
-
-  /*paquetes tabla */
-
-  .img-paquetes{
-    height: 150px;
-    width: 250px!important;
-    
-
-  }
-
-  .tabla-playas{
-    
-    width: 300px;
-  }
-
-
-  .t-1{
-    
-    width: 800px;
-  }
-
-
-  td img{
-    border-radius: 5px;
-  }
-
-  .paquete a{
-    font-weight: 700;
-    text-decoration: none;
-  }
-
-  .paquete {
-    min-width: 200px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-  .tabla-img {
-    min-width: 200px;
-  }
-
-.estrellas3{
-  font-size: 10px;
-  color: goldenrod;
-}
-
-.tiempo-limitado{
-  
-  font-family: Arial, Helvetica, sans-serif;
-color: rgb(85, 85, 211);
-text-shadow: 2px 2px 5px;
-font-size: 200%;
-}
-
-/*paquetes  */
-/* cuenta regresiva */
-
-
-#fecha {
-  line-height: 1em;
-  margin: 0 auto;      
-  text-align: center;
-  font-size: 200%;
-  font-weight: 700;
-
-}
-
-.fuego{
-  color: rgb(201, 57, 21);
-}
-
-
-/* cuenta regresiva */

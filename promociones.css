@@ -109,6 +109,8 @@ body {
 }
 
 /* CARDS-OFERTAS */
+
+
 /* ESTILO */
 .poster-h2 {
   position: relative;
@@ -121,6 +123,7 @@ body {
   size: 20px;
   text-shadow: 0 0 20px rgb(0 0 0 / 80%);
 }
+
 
 /* HOVER EFFECTS */
 .poster-img {
@@ -143,6 +146,8 @@ body {
 .poster:hover {
   cursor: pointer;
 }
+
+
 /* CARRUSEL DE IMAGENES */
 .carrusel {
   box-shadow: 0px 0px 10px 10px #888888;
@@ -155,6 +160,8 @@ body {
     margin: 1rem 0;
   }
 }
+
+
 
 /*  CARRUSEL  ESTILO */
 .img-carrusel img {
@@ -175,6 +182,8 @@ body {
   opacity: 1;
   cursor: pointer;
 }
+
+
 
 /* Carrusel Text */
 @media screen and (max-width: 480px) {
@@ -227,6 +236,7 @@ body {
   transition: all 1s ease-in-out;
   cursor: pointer;
 }
+
 /* Texto lateral position +estilo */
 .lateral-h2 {
   text-align: center;
@@ -245,6 +255,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
 /*  hover effects */
 .lateral-h2 {
   transition: 0.5s ease;
@@ -281,6 +292,7 @@ body {
 }
 
 /* FOOTER */
+
 /* explainer-footer */
 .explainer-footer {
   background: rgb(34, 34, 80);
@@ -312,6 +324,7 @@ body {
   padding: 5px;
   color: #222250;
 }
+
 /* foooter-legal */
 .footer-legal {
   background: rgb(34, 34, 80);
@@ -329,10 +342,12 @@ body {
 .coockies-a:hover {
   color: #ffffff;
 }
+
 /* footer-all */
 .footer-all {
   background-color: #ffffff;
 }
+
 /* FORM-FOOT */
 .input-foot {
   background-color: transparent;
