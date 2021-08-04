@@ -103,7 +103,7 @@ body {
   text-shadow: 0 0 20px rgb(0 0 0 / 80%);
 }
 .sub-header {
-  background-image: url(./IMGProyecto/Navbar&Header/35dqar57w9r212222.jpg);
+  background-image: url(./imagenes-proyecto/35dqar57w9r212222.jpg);
   padding: 9rem;
   text-align: center;
 }
@@ -306,7 +306,7 @@ body {
 /* MODAL */
 
 .fondo-1 {
-  background-image: url(./imagenes/fondomodal.jpg);
+  background-image: url(./imagenes-proyecto/fondomodal.jpg);
   background-size: cover;
 }
 .slide-right {

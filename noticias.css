@@ -105,7 +105,7 @@ body {
 }
 
 .fondo-header {
-    background-image: url(./header/fondo2.jpg);
+    background-image: url(./imagenes-proyecto/fondo2.jpg);
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body {
 }
 
 .paralax {
-    background: url(./header/maragogi3.jpg) no-repeat center;
+    background: url(./imagenes-proyecto/maragogi3.jpg) no-repeat center;
     background-attachment: fixed;
     height: 300px;
     width: 100%;
@@ -123,7 +123,7 @@ body {
     box-shadow: 5px 3px 3px;
 }
 .paralax2 {
-    background: url(./header/1023070.jpg) no-repeat center;
+    background: url(./imagenes-proyecto/1023070.jpg) no-repeat center;
     background-attachment: fixed;
     height: 300px;
     width: 100%;
@@ -132,7 +132,7 @@ body {
     box-shadow: 5px 3px 3px;
 }
 .paralax3 {
-    background: url(./header/Tropical-landscape-palm-trees-houses-sea-beach-stones_1920x1080.jpg) no-repeat center;
+    background: url(./imagenes-proyecto/Tropical-landscape-palm-trees-houses-sea-beach-stones_1920x1080.jpg) no-repeat center;
     background-attachment: fixed;
     height: 300px;
     width: 100%;
@@ -251,7 +251,7 @@ h3 {
 
 /* modal login */
 .fondo-1 {
-    background-image: url(./nabar/fondomodal.jpg);
+    background-image: url(./imagenes-proyecto/fondomodal.jpg);
     background-size: cover;
 }
 .slide-right {

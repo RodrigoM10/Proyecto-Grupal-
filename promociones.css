@@ -103,7 +103,7 @@ body {
   text-shadow: 0 0 20px rgb(0 0 0 / 80%);
 }
 .sub-header {
-  background-image: url(./IMGProyecto/Navbar&Header/header-fiji.jpg);
+  background-image: url(./imagenes-proyecto/header-fiji.jpg);
   padding: 9rem 12px;
   text-align: center;
 }
@@ -386,7 +386,7 @@ body {
 /* MODAL REGISTRO */
 
 .fondo-1 {
-  background-image: url(./imagenes/fondomodal.jpg);
+  background-image: url(./imagenes-proyecto/fondomodal.jpg);
   background-size: cover;
 }
 .slide-right {
